@@ -131,7 +131,7 @@ function change_nav_size(){
         navibar.classList.add("navi_bar_s");
     }
 }
-
+//http://callmenick.com/post/animated-resizing-header-on-scroll
 /////////////////////////////////////////////////////
 //resizing navibar end
 /////////////////////////////////////////////////////
@@ -220,6 +220,8 @@ function showDivs(n){
 
     x[slideIndex].style.display = "block";
 }
+
+//source: https://www.w3schools.com/howto/howto_js_slideshow.asp
 ///////////////////////////////////////////////////////////////////
 
 
@@ -317,3 +319,5 @@ window.addEventListener("click", function(event){
     if(event.target == k_modal_d)
         k_modal_d.style.display = "none";}
 )
+
+// https://www.w3schools.com/howto/howto_css_modals.asp

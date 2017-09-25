@@ -1,8 +1,8 @@
 .navi_bar {
     position: fixed;
     top: 0;
-    z-index: 9999;
-    width: 100%;
+/*     z-index: 9999; */
+    width: 96.5%;
 //   background: #0099e6;
     line-height: 80px;
     
@@ -36,7 +36,7 @@
 //    padding-right: 40px;
     color: #000000;
     display: inline-block;
-    padding:12px 16px;
+/*     padding:12px 16px; */
     background-color: #2280c3;
     -webkit-transition-duration: 1s; /* Safari */
     -moz-transition: 1s;
@@ -46,7 +46,7 @@
 }
 
 .navi_bar li a{
-    padding: 10px;
+    margin-right: 40px;
 //    padding-right: 40px;
     color: #e5ffff;
     display: block;
@@ -58,7 +58,7 @@
     float: left;
     font-size: 38px;
     color: #cceeff;
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 
@@ -72,9 +72,9 @@
     position: fixed;
     top: 0;
     z-index: 9999;
-    width: 100%;
+    width: 96.5%;
 //   background: #0099e6;
-    line-height: 50px;
+    line-height: 40px;
     -webkit-transition-duration: 1s; /* Safari */
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -109,7 +109,7 @@
 }
 
 .navi_bar_s li a{
-    padding: 20px;
+    margin: 20px;
     padding-top: 0;
 //    padding-right: 40px;
     color: #e5ffff;
@@ -122,14 +122,14 @@
     float: left;
     font-size: 25px;
     color: #cceeff;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 /*.navi_bar_s li a:hover{
     background-color: #f5f7fc;
     color: #19264d;
 }*/
-
+/* http://callmenick.com/post/animated-resizing-header-on-scroll */
 //////////////////////////////////////////////////////
 
 
@@ -137,17 +137,16 @@
 
 .Profile{
     margin: auto;
-    background: #E2EAEE;
     color: #3d3d5c;
     height: 480px;
     padding-top: 150px;
-    padding-left: 100px;
+    margin-left: 100px;
 /*     max-width: 1000px; */
 /*     overflow: hidden; */
-    background-image: url("http://wx1.sinaimg.cn/large/8fbde7fcgy1fissk1kz7wj21400qotdo.jpg");
+    background-image: url("http://ticket.st/koe-ani/wp-content/uploads/2015/08/c353d84e0c1583f6b78d1c610390aa7d.jpg");
     background-repeat: no-repeat;
     background-size: relative;
-    background-position: left; 
+    background-position: top; 
     background-attachment: relative;
 /*    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506310691111&di=fb56aa1b929d3130cc840e7c6f9c7159&imgtype=0&src=http%3A%2F%2Fi1.qhimg.com%2Ft0198f8df66749c17b5.jpg");
     background-attachment: relative;
@@ -167,28 +166,31 @@
     top: 200px;
     max-height: 50px;
     z-index: 9998;
-    padding-right:15px;
+    margin-right:15px;
 }
 
 
 .Works
 {   
     margin: auto;
-    background: #ffffff;
+/*     background: #ffffff; */
+    background: #E2EAEE;
+
 /*     color: #3d3d5c; */
-    height: 700px;
+/*     height: 50%; */
 /*    padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
     max-width: 1000px;*/
+/*     margin-left: 100px; */
+    padding-top: 40px;
     padding-left: 100px;
-    padding-top: 100px;
-    padding-right: 100px;
-    background-image: url("http://ticket.st/koe-ani/wp-content/uploads/2015/08/c353d84e0c1583f6b78d1c610390aa7d.jpg");
+    padding-bottom: 50px;
+/*     padding-right: 100px; */
+/*     background-image: url("http://ticket.st/koe-ani/wp-content/uploads/2015/08/c353d84e0c1583f6b78d1c610390aa7d.jpg"); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-
     position: relative;
 }
 
@@ -232,7 +234,7 @@
 ////////////////////////////////
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 80%;
   position: relative;
   overflow: hidden;
   display: block;
@@ -240,12 +242,14 @@
 }
 
 .mySlides{
-    max-width: 700px;
-    max-height: 500px;
+    width: 80%;
+    height: 80%;
     position: relative;
     margin: auto;
     display: none;
     transform: translate(-30%, 0);
+    overflow: hidden;
+
 }
 
 /*
@@ -276,14 +280,14 @@
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 0 0 0 40px;
+  margin-left: 2%;
   margin-top: -22px;
   color: black;
   font-weight: bold;
   font-size: 25px;
   transition: 0.6s ease;
-  border-radius: 0 2px 2px 0;
-  background: #ffffff;
+/*   border-radius: 0 2px 2px 0; */
+/*   background: #ffffff; */
   opacity: 0.7;
 }
 
@@ -293,16 +297,16 @@
   top: 50%;
   right: 50%;
   width: auto;
-  padding: 0 510px 0 0;
+  margin-right: 35%;
   margin-top: -22px;
   color: black;
   font-weight: bold;
   font-size: 25px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+/*   border-radius: 0 3px 3px 0; */
   right: 0;
-  border-radius: 2px 0 0 2px;
-  background: #ffffff;
+/*   border-radius: 2px 0 0 2px; */
+/*   background: #ffffff; */
   opacity: 0.7;
 
 }
@@ -314,32 +318,18 @@
   animation-duration: 1.5s;
 }
 
-.numbertext{
-    color: white;
-    font-size: 15px;
-    padding: 10px 10px;
-    position: absolute;
-    top: 0;
-}
-
-.text{
-    background-color: white;
-    opacity: 0.8;
-    max-width: 500px;
-    margin: auto;
-}
 
 
 ////////////////////////////////
 
 .Lives{
-    margin: auto;
     background: #eefaff;
     color: #3d3d5c;
-    height: 700px;
-    padding-left: 100px;
+/*     height: 700px; */
+    margin-left: 100px;
+    margin-right: 100px;
     padding-top: 70px;
-    max-width: 1000px;
+    max-width: 100%;
     
 }
 .Lives p{
@@ -353,16 +343,16 @@
     margin: auto;
     background-image: url("http://ww4.sinaimg.cn/large/6b682ebcgw1f7izfj2rjrj21kw2aw7k8.jpg");
     background-repeat: no-repeat;
-    background-size: 1000px 1500px;
+    background-size: 90% 180%;
     background-position: center; 
     background-attachment: fixed;
     opacity: 0.7;
     color: #3d3d5c;
     height: 690px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-top: 70px;
-    max-width: 1000px;
+    max-width: 90%;
 }
 
 .Albums .albums-columns{
@@ -370,7 +360,10 @@
     -moz-column-count: 3;
     column-count: 3;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 30px 30px 20px;
+    width: 80%;
+    position: center;
+    padding: 0 2% 2% 2%;
+    margin: auto;
 }
 
 .Albums .albums-columns h1{
@@ -378,16 +371,18 @@
     column-span: all;
 }
 
+/* https://www.w3schools.com/css/css3_multiple_columns.asp */
+
 .footer {
     height: 100px;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 96%;
     background-color: #f2f2f2;
     background-image: url("http://ak7.picdn.net/shutterstock/videos/4977047/thumb/1.jpg");
     background-size: 100% 600%;
     color: #19264d;
 /*     text-align: left; */
-    padding-left: 70px;
+/*     padding-left: 70px; */
     font-size: 10px;
     display: inline-block;
     
@@ -399,16 +394,8 @@
     vertical-align: middle; 
     background-color: white;
     opacity: 0.3;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-.Lives .LP{
-    display: block;
-    height: 100px;
-    position: relative;
-    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #modal_a{
@@ -435,6 +422,7 @@
     background-color: white;
     opacity: 0.9;
 }
+
 .social-media-icon-fb{
     position: absolute;
     top: 25px;
@@ -444,3 +432,20 @@
     opacity: 0.9;
 }
 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+////source: https://www.w3schools.com/howto/howto_js_slideshow.asp
