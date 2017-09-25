@@ -144,7 +144,7 @@ function pos_indicator(){
     var currY = curr_pos();
     //console.log(currY);
     if (currY < works_pos){
-        profile.style.background = '#fff7f7';        
+        profile.style.background = '#f4fffd';        
         profile.style.color = '#19264d';
         works.style.background = '#2280c3';
         works.style.color = '#e5ffff';
@@ -157,7 +157,7 @@ function pos_indicator(){
     else if (currY < albums_pos){
         profile.style.background = '#2280c3';
         profile.style.color = '#e5ffff';
-        works.style.background = '#fffff9';
+        works.style.background = '#f7fbfa';
         works.style.color = '#19264d';
         albums.style.background = '#2280c3';          
         albums.style.color = '#e5ffff';
@@ -201,7 +201,6 @@ function preDiv(){
 function nextDiv(){
     plusDivs(1);
 }
-
 
 function plusDivs(n){
     showDivs(slideIndex += n);

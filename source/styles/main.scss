@@ -174,7 +174,7 @@
 .Works
 {   
     margin: auto;
-    background: #fffff0;
+    background: #ffffff;
 /*     color: #3d3d5c; */
     height: 700px;
 /*    padding-top: 100px;
@@ -184,6 +184,10 @@
     padding-left: 100px;
     padding-top: 100px;
     padding-right: 100px;
+    background-image: url("http://ticket.st/koe-ani/wp-content/uploads/2015/08/c353d84e0c1583f6b78d1c610390aa7d.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 
     position: relative;
 }
@@ -241,7 +245,7 @@
     position: relative;
     margin: auto;
     display: none;
-    
+    transform: translate(-30%, 0);
 }
 
 /*
@@ -279,7 +283,7 @@
   font-size: 25px;
   transition: 0.6s ease;
   border-radius: 0 2px 2px 0;
-  background: #fffff0;
+  background: #ffffff;
   opacity: 0.7;
 }
 
@@ -287,8 +291,9 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
+  right: 50%;
   width: auto;
-  padding: 0 140px 0 0;
+  padding: 0 510px 0 0;
   margin-top: -22px;
   color: black;
   font-weight: bold;
@@ -297,7 +302,7 @@
   border-radius: 0 3px 3px 0;
   right: 0;
   border-radius: 2px 0 0 2px;
-  background: #fffff0;
+  background: #ffffff;
   opacity: 0.7;
 
 }
